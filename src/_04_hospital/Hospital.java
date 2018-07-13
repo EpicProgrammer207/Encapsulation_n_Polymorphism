@@ -2,19 +2,19 @@ package _04_hospital;
 
 import java.util.List;
 
-public class Doctor {
+public class Hospital {
 
-	public Object performsSurgery() {
+	public void addDoctor(Doctor d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Doctor> getDoctors() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public Object makesHouseCalls() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public void assignPatient(Patient patient) {
+	public void addPatient(Patient patient) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -24,7 +24,7 @@ public class Doctor {
 		return null;
 	}
 
-	public void doMedicine() {
+	public void assignPatientsToDoctors() {
 		// TODO Auto-generated method stub
 		
 	}
